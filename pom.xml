@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>jsp_learning</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>jsp_learning Maven Webapp</name>
   <url>http://maven.apache.org</url>
