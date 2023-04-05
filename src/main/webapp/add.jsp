@@ -5,7 +5,7 @@
   Time: 06:46 pm
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="error.jsp" %>
 <%@include file="header.jsp"%>
 <html>
 <head>
@@ -38,8 +38,12 @@
 <br>
 The sum of both number is
 <br>
-<%=num1%> + <%=num2%> =
-: <%=sum%>
+<%=num1%> + <%=num2%> = <%=sum%>
+
+<%--There is error by dividing zero so we make a new error page for that import errorPage and create error.jsp file--%>
+<% if(num1 == 0){
+    out.println(9/0);
+}%>
 
 </body>
 </html>

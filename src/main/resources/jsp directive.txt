@@ -1,0 +1,21 @@
+jsp directive
+    1) @page
+    2) @include
+    3) @tablib
+
+@page
+    <%@ page attribute="value" attribute="value" ... %>
+
+    language=" "scripting language"
+    extends=" className"
+     import=" importList"
+    session="true false"
+    autoFlush="true |false"
+    contentType="ctinfo"
+    errorPage="error_url"
+    isErrorPage="true]false"
+    info="information"
+    isELIgnored="true|false"
+    isThreadSafe="true |false"
+
+

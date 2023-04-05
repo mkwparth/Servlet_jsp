@@ -1,5 +1,5 @@
 <%@include file="header.jsp"%>
-
+<%@ page errorPage="error.jsp" %>
 <html>
 <body>
 <h2>Hello World!</h2>
