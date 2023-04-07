@@ -1,17 +1,12 @@
-<%@include file="header.jsp"%>
+<%--<%@include file="header.jsp"%>--%>
 <%@ page errorPage="error.jsp" %>
 <html>
 <body>
-<h2>Hello World!</h2>
+<h1>Hello world</h1>
 
-<form action="add.jsp" method="get">
-    num1: <input type="text" name="num1"><br>
-    num2:<input type="text" name="num2"><br>
-
-
-    <input type="submit">
-
-</form>
+<%
+    response.sendRedirect("home.jsp");
+%>
 
 </body>
 </html>
